@@ -1,0 +1,74 @@
+# Ignore everything by default
+*
+
+# Only track specific directories and files
+!README.md
+!.gitignore
+!Desktop/LCD/
+!Desktop/LCD/**
+
+# Always ignore these regardless of the above exceptions
+# NPM related files
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.npm/
+package-lock.json
+yarn.lock
+
+# Python virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.Python
+pyvenv.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Windows system files
+NTUSER.DAT*
+ntuser.*
+*.regtrans-ms
+*.blf
+AppData/
+Application Data/
+Local Settings/
+Cookies/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+NetHood/
+PrintHood/
+My Documents/
